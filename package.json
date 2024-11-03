@@ -1,0 +1,16 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nikolai <nikolaiosipov93@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "transliteration": "^2.3.5"
+  }
+}
