@@ -9,10 +9,12 @@
 
 ## Установка
 
-1. Скачайте архив с *[ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)* под названием `ffmpeg-master-latest-win64-gpl.zip` и распакуйте его.
-Затем переместите папку `ffmpeg-master-latest-win64-gpl` в корневую директорию проекта, рядом с файлом `app.js`
+1. Скачайте архив с *[ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)* под названием `ffmpeg-master-latest-win64-lgpl` и распакуйте его.
+Затем переместите папку `ffmpeg-master-latest-win64-lgpl` в корневую директорию проекта, рядом с файлом `app.js`
 
-2. ```npm install```
+2. Откройте терминал и выполните команду: ```npm install```
+
+3. Проверьте установку `FFmpeg`, запустив команду: `ffmpeg -version`. Вывод команды должен подтвердить, что `FFmpeg` установлен правильно.
 
 Убедитесь, что yt-dlp.exe и папка ffmpeg-win64 находятся в корне проекта.
 
@@ -74,8 +76,8 @@
 
 Этот проект использует:
 
-*[FFmpeg](https://ffmpeg.org/)*, который распространяется под *[GNU General Public License (GPL) версии 3](https://www.gnu.org/licenses/gpl-3.0.html)*.
-Текст лицензии находится в папке ffmpeg-win64
+*[FFmpeg](https://ffmpeg.org/)*, который распространяется под *[GNU Lesser General Public License (LGPL) версии 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html)*.
+Текст лицензии находится в папке `ffmpeg-master-latest-win64-lgpl`
 
 *[yt-dlp](https://github.com/yt-dlp/yt-dlp)*, который распространяется под лицензией *[Unlicense](https://unlicense.org/)*.
 Файл `yt-dlp.exe` находится в корне проекта.
